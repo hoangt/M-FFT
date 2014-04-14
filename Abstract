@@ -1,0 +1,28 @@
+Title: 
+==============
+Performance and Energy Limits of an Processor-integrated FFT Accelerator
+
+
+Tung, Amir, Calvin, Hank, Andrew
+
+Abstract:
+==============
+Accelerators have long been used to improve the performance and energy efficiency of embedded signal processing systems relying on Fast Fourier Transforms (FFTs). 
+
+We explore the benefits of processor-integrated FFT accelerators, characterizing their performance and energ efficiency for current and future memory architectures as well as process and transistor technology. 
+
+First, we evaluate designs that deeply integrate an FFT accelerator into a simple 5-stage RISC pipeline and evaluate the performance and energy efficiency for 32 nm process.  
+
+Our results indicate that a 64-point processor-integrated FFT accelerator alone can increase performance for a 4K FFT by 13-fold. However, when evaluated in a full system, the performance improvement is limited to 8-fold by the DDR3 memory hierarchy. 
+
+In term of energy efficiency, our 64-point FFT accelerator alone increases 12-fold but that improvment is limited to 7-fold once DDR3 memory hierarchy is included.
+
+
+
+Second, to explore memory constraint, because memory performance is a critical constraint, we evaluate system configuration with 3D-stacked (future) DRAM systems. Our results indicate that memory performance and 
+
+energy efficiency bottlenecks can be alliviated and delivering improvment of 11-fold and 10-fold for perfomance and energy respectively.
+
+Finally, we explore potential benefits in an extreme future Si technology, reporting the performance and energy benefits that may be expected in 2020 and beyond.  This study employs a DARPA-funded 7nm process and transistor model.
+
+
